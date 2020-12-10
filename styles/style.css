@@ -1,0 +1,29 @@
+header {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    color: white ;
+    text-align: center;
+    justify-content: center;
+}
+
+grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    background-color: black;
+    height: 300px;
+    width: 30%;
+    text-align: center;
+ }
+
+
+
+
+ footer{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    color: white ;
+    text-align: center;
+    justify-content: center;
+ }

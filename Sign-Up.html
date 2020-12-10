@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Exercise VI - Sign Up Form</title> 
+</head>
+
+<body> 
+    <h1 align="center"> Formulario</h1>
+    <form>
+        <h3 align= "center">Datos personales</h3>
+
+        <div align="center">
+           <input type="text" name="Nombre" placeholder="Nombre">
+        </div>
+
+        <div align="center">
+            <input type="text" name="Apellido" placeholder="Apellido">
+        </div>
+
+        <div align="center">
+            <input type="email" id="mail" name="mail" placeholder="Email">
+        </div>
+
+        <div align="center">
+            <h4>Fecha de Nacimiento</h6>
+            <input type="date" id="Birthday" name="Birthday">
+        </div>
+        
+        <h4 align="center">Deporte favorito</h4>
+        <div align="center">
+           <select name="Sport" id="Sport"> 
+               <option value="" disabled="" selected=""> Seleccione una opcion </option>
+               <option value="Futbol"> Futbol</option>
+               <option value="Rugby"> Rugby</option>
+               <option value="Atletismo"> Atletismo</option>
+               <option value="Natacion"> Natacion</option>
+               <option value="Cricket"> Cricket</option>
+               <option value="Basquet"> Basquet</option>
+               <option value="Boxeo"> Boxeo</option>
+               <option value="Tiro"> Tiro</option>
+               <option value="Equitacion"> Equitacion</option>
+           </select>
+
+           <div>
+
+            <h4>Biografía del usuario</h4>
+            <textarea id="textarea" name="textarea" rows="5" cols="40" placeholder="Write a small bio here."></textarea>
+           </div>
+        </div>
+        
+        <h4 align="center">Terminos y condiciones </h4>
+        <div align="center">
+           <label for="terminos"> ¿Desea recibir bolentín informativo?</label>
+           <br>
+           <input type="radio" name="terminos" value="si">si<br>
+           <input type="radio" name="terminos" value="no">No<br>
+        </div>
+        
+        <div align="center"> 
+            <input type="submit" value="Submit">
+        </div>
+        <div align="center"> 
+            <input type="reset" value="Reset">
+        </div>
+    
+    </form>
+
+</body></html>
